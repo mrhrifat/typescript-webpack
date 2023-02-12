@@ -1,0 +1,19 @@
+{
+  "name": "typescript-webpack",
+  "version": "1.0.0",
+  "description": "Compile a TypeScript project using Webpack",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "Mrh Rifat",
+  "license": "ISC",
+  "devDependencies": {
+    "fork-ts-checker-webpack-plugin": "^7.3.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.5",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
