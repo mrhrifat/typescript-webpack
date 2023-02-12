@@ -1,4 +1,5 @@
-export default class Imam {
+import ImamInterface from "./interface";
+export default class Imam implements ImamInterface {
   constructor(
     readonly id: number | string,
     readonly name: string,
