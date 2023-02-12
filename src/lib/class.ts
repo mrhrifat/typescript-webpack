@@ -1,4 +1,5 @@
 import ImamInterface from "./interface";
+
 export default class Imam implements ImamInterface {
   constructor(
     public id: number | string,

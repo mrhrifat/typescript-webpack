@@ -2,7 +2,7 @@ import Imam from "./lib/class";
 import ImamInterface from "./lib/interface";
 
 console.log("Hello Programmers");
-const imams: object[] = [];
+const imams: ImamInterface[] = [];
 
 const imam1: ImamInterface = new Imam(1, "Ibn Jawji", 67, "Bagdad", "ASWJ");
 console.log({ imam1 });
